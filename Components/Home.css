@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.Logo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 35px
+  /* background-image: url('./logo.svg'); */
+}
+
+
+.logotext{
+  font-family: 'Dancing Script', cursive;
+  font-size: 300%;
+}
+
+#components-layout-demo-top-side-2 .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255);
+  
+  margin: 16px 28px 16px 0;
+  float: left;
+
+  
+}
+
+.site-layout-background {
+  background: #fff;
+}
