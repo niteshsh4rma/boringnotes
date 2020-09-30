@@ -16,7 +16,7 @@ class Contact extends Component {
 
   render() {
     return (
-      <div>
+      <>
         <div style={{textAlign : 'center', fontSize : '25px', fontWeight : 'bold'}}>
           Contact <ContactsOutlined />
         </div>
@@ -53,7 +53,7 @@ class Contact extends Component {
         </div>
 
 
-      </div>
+      </>
     );
   }
 }
