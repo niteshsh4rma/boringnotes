@@ -62,7 +62,7 @@ export default class Dashboard extends Component {
 
     fetch('https://boringnotes.herokuapp.com/notes/?notes_id='+id).then(res => res.json()).then(finalresult => console.log('started'));
 
-    let inteval = setInterval(run,10000,id);
+    let interval = setInterval(run,10000,id);
     
     async function run(id){
 
@@ -75,7 +75,7 @@ export default class Dashboard extends Component {
     }
 
     function cinterval(){
-      clearInterval(inteval);
+      clearInterval(interval);
     }
 
   }
